@@ -1,10 +1,11 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #e6b9f4;
 }
 
 h1 {
-    color: purple;
-    text-align:center
+    color: #7e7210;
+    text-align:center;
 }
 
 nav {
@@ -13,4 +14,23 @@ nav {
 
 section {
     text-align: center;
+}
+
+.flexin-on-em {
+    display: flex;
+}
+
+.flexin-on-em :nth-child(1) {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 12%;
+}
+
+.flexin-on-em :nth-child(2) {
+    background-color: #42741a !important;
+    margin: 0 10%;
+}
+
+article {
+    display: grid;
 }
